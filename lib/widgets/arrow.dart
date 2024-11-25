@@ -52,9 +52,8 @@ class TinTucWidget extends StatelessWidget {
                   ),
                 ],
               ),
-              // Divider sát vào chữ "TIN TỨC"
               Container(
-                color: Colors.black, // Nền màu đen
+                color: Colors.black,
                 child: Divider(
                   color: Colors.black, // Màu divider
                   thickness: 1, // Độ dày của divider
