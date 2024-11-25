@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:front/screen/header_down.dart';
 import 'package:front/screen/reset_password.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -9,8 +8,10 @@ class LoginScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        
-      )
+        title: Text('Đăng nhập tài khoản'),
+        centerTitle: true,
+        backgroundColor: Colors.blue,
+      ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Form(
